@@ -1,5 +1,5 @@
 {
-    "name": "wanna/laravel-workflow-database",
+    "name": "xumng/laravel-workflow-database",
     "description": "laravel workflow with database and role",
     "type": "library",
     "minimum-stability": "dev",
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Wanna\\LaravelWorkflowDatabase\\": "src/"
+            "xumng\\LaravelWorkflowDatabase\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
           "providers": [
-            "Wanna\\LaravelWorkflowDatabase\\Providers\\WorkflowProvider"
+            "xumng\\LaravelWorkflowDatabase\\Providers\\WorkflowProvider"
           ]
         }
     }
